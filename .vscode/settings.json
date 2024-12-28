@@ -1,0 +1,26 @@
+{
+    "files.associations": {
+        "*.html": "html"
+    },
+    "emmet.includeLanguages": {
+        "html": "html"
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[html]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "emmet.triggerExpansionOnTab": true,
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+    },
+    "editor.suggestSelection": "first",
+    "html.format.indentInnerHtml": true,
+    "html.format.wrapLineLength": 80,
+    "html.format.preserveNewLines": true,
+    "html.format.endWithNewline": true,
+    "liveServer.settings.port": 5501
+}
+

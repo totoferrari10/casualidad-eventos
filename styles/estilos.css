@@ -1,0 +1,609 @@
+
+
+body {
+    background: linear-gradient(270deg, #272727, #221f1f, #220d18, #241216);
+    background-size: 600% 600%;
+    animation: gradientBG 10s ease infinite;
+}
+
+.ingreso{
+    display: flex;
+    padding: 250px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.ingreso h3{
+    font-size: 30px;
+    color: aliceblue;
+
+}
+
+.ingreso p{
+
+    font-family: 'Dancing Script', cursive;
+    font-size: 3.5rem;
+    letter-spacing: 2px; 
+    color: aliceblue;
+}
+
+
+.ingreso a{
+    padding: 10px;
+    background-color: #424869; 
+    border: 1px solid violet;
+    border-radius: 12px;
+    width: 20%;
+    color: violet;
+    font-size: 24px;
+    justify-content: space-between;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.ingreso a:hover{
+    background-color: violet;
+    color: aliceblue;
+}
+
+/* Gradientes */
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+
+
+/* Cartas Html - SECTION 1*/
+
+.cards{
+    height: 50vh;
+    display: flex;
+    padding: 250px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cards h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 3.5rem;
+    letter-spacing: 2px; 
+    display: inline-block; 
+    transform: rotate(-5deg); 
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.849);
+    border: none;
+    color: violet;
+} 
+
+.cards p{
+    font-size: 25px;
+    color: aliceblue;
+}
+
+.icon-container{
+    color: aliceblue;
+    border-radius: 50%;
+    padding-top: 100px;
+    font-size: 15px;
+
+}
+.bx:hover {
+    transform: scale(1.1); 
+}
+
+/* SECTION 2 */
+.invitacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.invitacion h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    color: aliceblue;
+    width: 50%;
+}
+
+.img-invitacion{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* section 3, y en algunas partes section 4, seccion 5*/
+.party, .ubicacion{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.img-party, .img-ubi{
+    position: relative; 
+    width: 150px; 
+    overflow: hidden; 
+}
+
+.img-party img, .img-ubi img{
+    width: 100%; 
+}
+
+
+.img-party img.second, .img-ubi img{
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0 2px 3px rgba(255, 105, 180, 0.7);
+}
+
+
+.party p{
+    font-size: 70px;
+    font-family:  'Dancing Script', cursive;
+    color: aliceblue;
+}
+
+.subrayado {
+    text-align: center; 
+    position: relative; 
+    margin: 20px 0; 
+}
+
+.subrayado img {
+    width: 100%;
+    position: absolute; 
+    top: 70%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+}
+
+.cont-fecha p{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color:rgb(165, 129, 165);
+    text-shadow: 
+    0 0 2px rgba(165, 129, 165, 0.5), 
+    0 0 4px rgba(255, 192, 203, 0.5); 
+}
+
+
+.cont-fecha a, .cont-ubi a{
+    display: block;
+    padding: 10px;
+    background-color: #424869; 
+    border: 1px solid violet;
+    border-radius: 18px;
+    width: 100%;
+    color: violet;
+    font-size: 24px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.cont-fecha a:hover, .cont-ubi a:hover{
+    color: aliceblue;
+    background-color: violet;
+}
+
+/* Section 4 */
+.cont-ubi p{
+    font-family: 'Times New Roman', serif;
+    color: rgb(85, 85, 85);
+    text-align: center;
+    padding: 10px;
+}
+
+.cont-ubi p:first-of-type {
+    font-size: 36px;
+    font-weight: bold;
+    color: rgb(165, 129, 165); 
+    border-bottom: 2px solid rgb(200, 150, 200); 
+}
+
+.cont-ubi   p:last-of-type {
+    font-size: 28px;
+    color: rgb(100, 100, 100);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); 
+}
+
+/* Seccion 5 */
+.cont-asistencia p{
+    font-weight: 500;
+    text-shadow: 
+    0 0 2px rgba(165, 129, 165, 0.5), 
+    0 0 4px rgba(255, 192, 203, 0.5); 
+    font-size: 36px;
+    color: rgb(165, 129, 165); 
+    border-bottom: 2px solid rgb(200, 150, 200); 
+}
+
+.cont-asistencia a{
+    display: block;
+    width: 50%;
+    margin: 0 auto; /* Centra el elemento */
+    text-align: center; /* Centra el texto dentro del botón */
+    padding: 10px;
+    background-color: #424869; 
+    border: 1px solid violet;
+    border-radius: 18px;
+    color: violet;
+    font-size: 24px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.cont-asistencia a:hover{
+    color: aliceblue;
+    background-color: violet;
+}
+
+/* Seccion 6 */
+.fotos{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.photos{
+    position: relative; 
+    width: 150px; 
+    overflow: hidden; 
+    margin-bottom: 110px;
+    padding-bottom: 160px;
+
+}
+
+.photos img{
+    width: 100%; 
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0 2px 3px rgba(255, 105, 180, 0.7);
+}
+
+
+.cont-fotos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    width: 100%;
+    margin-left: 20px;
+}
+
+/* Estilo de cada imagen */
+
+.contenido {
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contenido img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.contenido:hover {
+    transform: scale(1.05);
+
+}
+
+.contenido:hover img {
+    transform: scale(1.1);
+}
+
+/* Section  7 */
+
+.title{
+    font-size: 60px;
+    font-family: 'Dancing Script', cursive;
+    padding-top: 100px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: rgb(213, 214, 214);
+    text-shadow: 
+    0 0 2px rgba(165, 129, 165, 0.5), 
+    0 0 4px rgba(255, 192, 203, 0.5);
+
+}
+
+.cont-modos{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cont-modos p{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+
+}
+
+.music{
+    background-color:  rgba(238, 130, 238, 0.062);
+    width: 50%;
+    height: 60%;
+    border-radius: 15px;
+    border: 1px solid rgba(238, 130, 238, 0.562);
+}
+
+.music h3{
+    font-size: 45px;
+    color: violet;
+}
+
+.music i{
+    font-size: 50px;
+    color: #241216;
+}
+
+.music p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: aliceblue;
+}
+
+.music a{
+    display: block;
+    width: 40%;
+    margin: 0 auto; /* Centra el elemento */
+    text-align: center; /* Centra el texto dentro del botón */
+    padding: 10px;
+    background-color: #424869; 
+    border: 1px solid violet;
+    border-radius: 18px;
+    color: violet;
+    font-size: 22px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.music a:hover{
+    color: aliceblue;
+    background-color: violet;
+}
+
+.vestimenta{
+    background-color: rgba(238, 130, 238, 0.151);
+    width: 50%;
+    height: 60%;
+    border-radius: 15px;
+    border: 1px solid rgba(238, 130, 238, 0.562);
+}
+
+.vestimenta h3{
+    font-size: 45px;
+    color: violet;
+    padding-bottom: 20px;
+}
+
+.vestimenta i{
+    font-size: 50px;
+    color: #241216;
+    padding-bottom: 50px;
+}
+
+.vestimenta p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilo adaptado (Mobile) */
+@media (max-width: 768px) {
+    .ingreso {
+        padding: 100px 20px; 
+    }
+
+    .ingreso h3 {
+        font-size: 24px; 
+    }
+
+    .ingreso p {
+        font-size: 2rem; 
+        letter-spacing: 1px; 
+    }
+
+    .ingreso a {
+        width: 30%; 
+        font-size: 18px; 
+    }
+}
+
+
+/* MOBILE CARDS- INVITACIONES - PARTY- UBICACION- FOTOS- MODOS*/
+@media (max-width: 768px) { 
+    .cards {
+        padding: 50px;
+    }
+
+    .cards h1 {
+        font-size: 4rem; 
+        letter-spacing: 1px; 
+        padding: 5px 10px; 
+    }
+
+    .cards p {
+        font-size: 18px; 
+    }
+
+    .icon-container {
+        font-size: 24px;
+    }
+
+    /* SECTION- INVITACIONES- MOBILE */
+    .invitacion h2 {
+        font-size: 30px; 
+        width: 80%;
+    }
+
+    .img-invitacion {
+        padding-top: 10px; 
+        padding-bottom: 10px; 
+    }
+    .party p {
+        font-size: 50px; 
+    }
+
+
+    /* SECTION-PARTY - MOBILE*/
+    .img-party {
+        width: 100px; 
+        height: 100px; 
+    }
+
+    .img-party img.second {
+        width: 50%; 
+        top: 20%; 
+        left: 25%; 
+    }
+
+    .cont-fecha p {
+        font-size: 20px; 
+    }
+
+    .cont-fecha a {
+        font-size: 18px; 
+        padding: 8px; 
+    }
+
+    /* SECTION- UBICACION- MOBILE */
+    .ubicacion {
+        padding: 20px;
+    }
+
+    .img-ubi {
+        width: 100px; 
+    }
+
+    .cont-ubi a {
+        font-size: 18px; 
+        padding: 6px; 
+    }
+
+    .cont-ubi p:first-of-type {
+        font-size: 24px; 
+    }
+
+    .cont-ubi p:last-of-type {
+        font-size: 20px; 
+    }
+
+    /* SECTION- ASISTENCIA- MOBILE */
+    .cont-asistencia p {
+        font-size: 28px; /* Reduce el tamaño del texto */
+    }
+
+    .cont-asistencia a {
+        width: 60%; /* Hace el botón más grande en pantallas pequeñas */
+        font-size: 20px; /* Reduce el tamaño de la fuente del botón */
+        padding: 12px; /* Aumenta el padding para un mejor toque */
+    }
+    /* SECTION FOTOS MOBILE */
+    .fotos {
+        height: auto;
+        padding: 20px;
+    }
+
+    .photos {
+        width: 130px; /* Reducido tamaño de la imagen principal */
+        margin-bottom: 30px;
+        padding-bottom: 40px;
+    }
+
+    .cont-fotos {
+        grid-template-columns: 1fr; /* En pantallas pequeñas, las imágenes se colocan en una sola columna */
+    }
+
+    .contenido {
+        width: 100%; /* Asegura que las imágenes ocupen el 100% del ancho */
+        max-width: 90%; /* Ajuste adicional para móviles */
+    }
+
+    .contenido img {
+        width: 100%; /* Hace que las imágenes secundarias ocupen todo el ancho del contenedor */
+        height: auto;
+    }
+    /* SECTION MODOS MOBILE */
+    .title {
+        font-size: 40px; /* Reduce el tamaño del título en pantallas más pequeñas */
+        padding-top: 50px; /* Reduce el padding en pantallas más pequeñas */
+    }
+
+    .cont-modos {
+        grid-template-columns: 1fr; /* Coloca los elementos en una sola columna */
+        height: auto; /* Ajusta la altura */
+        padding: 20px; /* Agrega algo de espacio */
+    }
+
+    .music, .vestimenta {
+        width: 80%; /* Aumenta el ancho de cada tarjeta */
+        height: auto; /* Ajusta la altura */
+        margin-bottom: 20px; /* Agrega un margen entre las tarjetas */
+    }
+
+    .music h3, .vestimenta h3 {
+        font-size: 30px; /* Reduce el tamaño de los encabezados */
+    }
+
+    .music i, .vestimenta i {
+        font-size: 40px; /* Reduce el tamaño de los íconos */
+    }
+
+    .music p, .vestimenta p {
+        font-size: 20px; /* Reduce el tamaño del texto */
+    }
+
+    .music a {
+        font-size: 18px; /* Reduce el tamaño del botón */
+        width: 50%; /* Aumenta el ancho del botón */
+        padding: 8px; /* Reduce el padding */
+    }
+
+}
+
+
+
+
