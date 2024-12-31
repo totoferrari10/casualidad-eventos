@@ -19,19 +19,37 @@ body {
 
 .ingreso h3{
     color: aliceblue;
-    font-size: 36px;
+    font-size: 40px;
     margin-bottom: 10px;
-
 }
 
 .ingreso p{
-
     font-family: 'Dancing Script', cursive;
-    font-size: 3.5rem;
-    letter-spacing: 2px; 
-    color: aliceblue; 
+    font-size: 35px;
+    padding: 15px;
+    color: #ecdeec;
+}
+
+.ingreso p span{
+    color: violet;
+}
 
 
+
+.decoraciones {
+    margin: 20px 0;
+}
+
+.decoraciones i {
+    font-size: 40px;
+    color: #f39dc8;
+    margin: 0 15px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.decoraciones i:hover {
+    transform: scale(1.2);
+    color: #ff1493;
 }
 
 
@@ -504,6 +522,16 @@ body {
 
     .ingreso p span{
         color: #FF69B4;
+    }
+
+    .decoraciones {
+        margin: 15px 0; /* Reduce el margen */
+        padding: 0 20px; /* Asegura que los íconos no toquen los bordes */
+    }
+    
+    .decoraciones i {
+        font-size: 30px; /* Disminuye el tamaño de los íconos en pantallas móviles */
+        margin: 0 10px; /* Reduce el espacio entre los íconos */
     }
 
     /* Estilo del botón */
