@@ -584,15 +584,31 @@ body {
 
 
     /* SECTION-PARTY - MOBILE*/
-
-    .party{
-        padding: 20px;
+    .party {
+        height: auto; /* Ajusta la altura según el contenido */
+        padding: 20px 10px; /* Reduce el padding */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 
     .img-party {
-        width: 100%; 
+        width: 120px; /* Reduce el tamaño de la imagen */
+        margin-bottom: 20px; /* Añade margen inferior para separación */
     }
 
+    .img-party img {
+        width: 100%;
+        border-radius: 8px; /* Redondea las esquinas */
+    }
+
+    .img-party img.second {
+        width: 80%; /* Ajusta el tamaño de la imagen */
+        border-radius: 50%;
+        box-shadow: 0 2px 3px rgba(255, 105, 180, 0.7);
+    }
 
     .cont-fecha p {
         font-size: 20px; 
