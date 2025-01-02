@@ -506,18 +506,18 @@ body {
 @media (max-width: 768px) {
     .ingreso {
         padding: 20px;
-        max-width: 80%; /* Ajusta el ancho para dispositivos móviles */
-        margin: 50px auto; /* Reduce el margen superior */
+        max-width: 80%; 
+        margin: 50px auto; 
     }
 
     /* Estilo del texto principal */
     .ingreso h3 {
-        font-size: 40px; /* Tamaño de texto reducido */
+        font-size: 40px; 
     }
 
     .ingreso p {
-        font-size: 1.8rem; /* Ajusta el tamaño del texto */
-        letter-spacing: 1.5px; /* Reduce el espaciado entre letras */
+        font-size: 1.8rem; 
+        letter-spacing: 1.5px; 
     }
 
     .ingreso p span{
@@ -525,20 +525,20 @@ body {
     }
 
     .decoraciones {
-        margin: 15px 0; /* Reduce el margen */
-        padding: 0 20px; /* Asegura que los íconos no toquen los bordes */
+        margin: 15px 0; 
+        padding: 0 20px; 
     }
     
     .decoraciones i {
-        font-size: 30px; /* Disminuye el tamaño de los íconos en pantallas móviles */
-        margin: 0 10px; /* Reduce el espacio entre los íconos */
+        font-size: 30px; 
+        margin: 0 10px; 
     }
 
     /* Estilo del botón */
     .ingreso a {
-        font-size: 18px; /* Tamaño de texto del botón reducido */
-        padding: 8px 16px; /* Ajusta el relleno del botón */
-        width: 50%; /* Botón más ancho para mayor visibilidad */
+        font-size: 18px; 
+        padding: 8px 16px; 
+        width: 50%; 
     }
 
     .ingreso a:hover{
@@ -561,7 +561,7 @@ body {
     }
 
     .cards p {
-        font-size: 18px; 
+        font-size: 28px; 
     }
 
     .icon-container {
