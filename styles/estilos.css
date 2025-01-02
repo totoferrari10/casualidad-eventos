@@ -584,16 +584,15 @@ body {
 
 
     /* SECTION-PARTY - MOBILE*/
-    .img-party {
-        width: 100px; 
-        height: 100px; 
+
+    .party{
+        padding: 20px;
     }
 
-    .img-party img.second {
-        width: 50%; 
-        top: 20%; 
-        left: 25%; 
+    .img-party {
+        width: 100%; 
     }
+
 
     .cont-fecha p {
         font-size: 20px; 
