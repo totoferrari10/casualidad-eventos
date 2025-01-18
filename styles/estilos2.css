@@ -979,7 +979,7 @@ background-color:  rgb(25, 108, 114);;
             background-color: #c4455a;
             border: 1px solid violet;
             border-radius: 12px; /* Bordes más pequeños */
-            width: 90%; /* Ajusta el ancho a un 90% del contenedor */
+            width: 100%; /* Ajusta el ancho a un 90% del contenedor */
             color: rgb(231, 224, 231);
             font-size: 18px; /* Tamaño más pequeño */
             text-decoration: none;
