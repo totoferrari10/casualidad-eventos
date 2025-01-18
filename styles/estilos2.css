@@ -942,20 +942,20 @@ background-color:  rgb(25, 108, 114);;
         }
     
         .overlay-text-2 .month {
-        font-size: 32px; 
+        font-size: 38px; 
         letter-spacing: 2px;
         }
     
         .overlay-text-2 .day {
-        font-size: 20px;
+        font-size: 25px;
         }
     
         .overlay-text-2 .number {
-        font-size: 60px; 
+        font-size: 70px; 
         }
     
         .overlay-text-2 .hour {
-        font-size: 18px; 
+        font-size: 23px; 
         }
         .overlay-text p {
             font-family: 'Times New Roman', serif;
