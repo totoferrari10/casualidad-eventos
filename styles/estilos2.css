@@ -319,7 +319,7 @@ background-color:  rgb(25, 108, 114);;
 .overlay-text-2 .hour{
     font-size: 25px;
 }
-
+/* SECCION 4- UBICACION */
 .overlay-text p{
     font-family: 'Times New Roman', serif;
     color: rgb(230, 29, 29);
@@ -952,6 +952,60 @@ background-color:  rgb(25, 108, 114);;
         .overlay-text-2 .hour {
           font-size: 16px; /* Ajusta el tamaño de la hora */
         }
+        .overlay-text p {
+            font-family: 'Times New Roman', serif;
+            color: rgb(230, 29, 29);
+            text-align: center;
+            padding: 5px; /* Espaciado más pequeño */
+          }
+        
+          .overlay-text p:first-of-type {
+            font-size: 28px; /* Tamaño más pequeño */
+            font-weight: bold;
+            color: rgb(182, 45, 68);
+            border-bottom: 1px solid rgb(88, 29, 73);
+          }
+        
+          .overlay-text p:last-of-type {
+            font-size: 20px; /* Tamaño más pequeño */
+            color: rgb(206, 77, 94);
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+            padding: 10px; /* Espaciado más pequeño */
+          }
+        
+          .overlay-text a {
+            display: block;
+            padding: 8px; /* Ajustado para móviles */
+            background-color: #c4455a;
+            border: 1px solid violet;
+            border-radius: 12px; /* Bordes más pequeños */
+            width: 90%; /* Ajusta el ancho a un 90% del contenedor */
+            color: rgb(231, 224, 231);
+            font-size: 18px; /* Tamaño más pequeño */
+            text-decoration: none;
+            transition: 0.3s;
+            margin: 0 auto; /* Centra el enlace horizontalmente */
+          }
+        
+          .overlay-text a:hover {
+            color: aliceblue;
+            background-color: rgb(107, 35, 53);
+          }
+        
+          .img-ubi {
+            position: relative; /* Contenedor relativo */
+            width: 100%; /* Ocupa todo el ancho disponible */
+            height: 80px; /* Altura reducida para móviles */
+          }
+        
+          .img-ubi img {
+            position: absolute; /* Posiciona la imagen en relación al contenedor */
+            top: 50%; /* Mueve al centro vertical */
+            left: 50%; /* Mueve al centro horizontal */
+            transform: translate(-50%, -50%); /* Ajusta el punto de anclaje al centro */
+            max-width: 60px; /* Imagen más pequeña */
+            max-height: 60px; /* Asegura un límite en la altura */
+          }
       }
       
 
