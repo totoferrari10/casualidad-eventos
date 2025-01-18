@@ -4,9 +4,13 @@
 }
 
 body {
-    background: linear-gradient(270deg, #272727, #221f1f, #220d18, #241216);
+    background: linear-gradient(270deg, #aec8dd, #35193398, #250e2073, #35113363);
     background-size: 600% 600%;
-    animation: gradientBG 10s ease infinite;
+    animation: gradientBG 20s ease infinite;
+    background-image: url(./../imgs/CARATULA-\(2\).png);
+    background-size: cover; /* Ajusta la imagen para que cubra todo el contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center center; /* Centra la imagen */
 }
 
 .ingreso{
@@ -240,21 +244,23 @@ body {
 /* --------------------------------------------------------------- */
 .content-container {
     display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
-    height: 100vh; /* Altura completa del contenedor */
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+
+
 }
 .image-box {
     position: relative; /* Necesario para posicionar el texto encima */
     width: 400px; /* Ancho del cuadro (ajústalo a tu preferencia) */
     height: 400px; /* Alto del cuadro */
     overflow: hidden; /* Evita que el texto o la imagen salgan del cuadro */
-    border: 2px solid #ccc; /* Opcional: borde alrededor del cuadro */
-    border-radius: 10px; /* Opcional: esquinas redondeadas */
+    border: none; /* Opcional: borde alrededor del cuadro */
+    border-radius: 2px; /* Opcional: esquinas redondeadas */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Opcional: sombra para el cuadro */
-  }
-  
-  .image-box img {
+}
+
+.image-box img {
     width: 100%; /* Ajusta la imagen al ancho del cuadro */
     height: 100%; /* Ajusta la imagen al alto del cuadro */
     object-fit: cover; /* Asegura que la imagen mantenga proporciones */
@@ -268,11 +274,50 @@ body {
     color: white; /* Color del texto */
     font-size: 1.4rem; /* Tamaño del texto (ajústalo según tu preferencia) */
     font-weight: bold; /* Texto más visible */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra para mejor legibilidad */
+    text-shadow: 2px 2px 4px rgba(136, 8, 119, 0.562); /* Sombra para mejor legibilidad */
     text-align: center; /* Centrado del texto si es multilinea */
-    color: rgb(119, 35, 77);
+    color: rgb(182, 45, 68);
     width: 80%;
+    letter-spacing: 1px;
   }
+
+
+  .overlay-text-2 {
+    position: absolute; /* Posiciona el texto encima de la imagen */
+    top: 50%; /* Centra el texto verticalmente */
+    left: 50%; /* Centra el texto horizontalmente */
+    transform: translate(-50%, -50%); /* Ajuste perfecto para el centro */
+    color: white; /* Color del texto */
+    font-size: 1.4rem; /* Tamaño del texto (ajústalo según tu preferencia) */
+    font-weight: bold; /* Texto más visible */
+    text-shadow: 2px 2px 4px rgba(136, 8, 119, 0.562); /* Sombra para mejor legibilidad */
+    text-align: center; /* Centrado del texto si es multilinea */
+    color: rgb(182, 45, 68);
+    width: 80%;
+    letter-spacing: 1px;
+    background-color: #f1b8b893;
+    height: 220px;
+    border-radius: 10px ;
+  }
+
+.overlay-text-2 .month{
+    letter-spacing: 3px;
+    font-size: 32px;
+}
+
+.overlay-text-2 .day{
+    font-size: 23px;
+}
+
+.overlay-text-2 .number{
+    font-size: 80px;
+    
+}
+
+.overlay-text-2 .hour{
+    font-size: 25px;
+}
+
   
 /* ---------------------------------------------------------------------------------- */
 
@@ -812,7 +857,50 @@ body {
         padding-bottom: 50px; 
     }
 
-}
+            /* CARTAS ACTUALES  */
+        .content-container {
+            width: 90%; /* No hace las cartas tan anchas */
+            height: 600px; /* Ajusta la altura de la carta */
+            margin: 10px auto; /* Centra la carta */
+        }
+      
+        .image-box {
+          width: 100%; /* Reduce el ancho del cuadro en móviles */
+          height: 50%; /* Ajusta la altura automáticamente según el contenido */
+        }
+      
+        .overlay-text,
+        .overlay-text-2 {
+          font-size: 1.3rem; /* Reduce el tamaño del texto */
+          width: 50%; /* Asegura que el texto ocupe todo el ancho del cuadro */
+          padding: 10px; /* Agrega espacio interno para el texto */
+          border-radius: 8px; /* Ajusta las esquinas */
+        }
+      
+        .overlay-text-2 {
+          height: auto; /* Ajusta automáticamente el alto según el texto */
+        }
+      
+        .overlay-text-2 .month {
+          font-size: 20px; /* Ajusta el tamaño de la fuente */
+          letter-spacing: 2px;
+        }
+      
+        .overlay-text-2 .day {
+          font-size: 18px;
+        }
+      
+        .overlay-text-2 .number {
+          font-size: 50px; /* Reduce el tamaño del número */
+        }
+      
+        .overlay-text-2 .hour {
+          font-size: 16px; /* Ajusta el tamaño de la hora */
+        }
+      }
+      
+
+
 
 
 
