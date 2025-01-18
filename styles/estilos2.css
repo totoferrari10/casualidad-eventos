@@ -686,7 +686,7 @@ background-color:  rgb(25, 108, 114);;
     }
 
     .ingreso p span{
-        color: #FF69B4;
+        color: #3dd9ee;
     }
 
     .decoraciones {
@@ -707,7 +707,7 @@ background-color:  rgb(25, 108, 114);;
     }
 
     .ingreso a:hover{
-        background-color: violet;
+        background-color: rgb(9, 67, 82);
         color: aliceblue;
     }
 }
@@ -942,7 +942,7 @@ background-color:  rgb(25, 108, 114);;
         }
     
         .overlay-text-2 .month {
-        font-size: 38px; 
+        font-size: 35px; 
         letter-spacing: 2px;
         }
     
@@ -968,12 +968,12 @@ background-color:  rgb(25, 108, 114);;
             font-size: 28px;
             font-weight: bold;
             color: rgb(182, 45, 68);
-            border-bottom: 1px solid rgb(88, 29, 73);
+            border-bottom: 1px solid rgb(170, 46, 73);
           }
         
           .overlay-text p:last-of-type {
             font-size: 20px;
-            color: rgb(206, 77, 94);
+            color: rgb(148, 18, 39);
             text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
             padding: 10px; 
           }
@@ -981,10 +981,10 @@ background-color:  rgb(25, 108, 114);;
             display: block;
             padding: 8px; 
             background-color: #c4455a;
-            border: 1px solid violet;
+            border: 1px solid rgb(214, 67, 135);
             border-radius: 12px; 
             width: 100%; 
-            color: rgb(231, 224, 231);
+            color: rgb(230, 227, 230);
             font-size: 18px;
             text-decoration: none;
             transition: 0.3s;
