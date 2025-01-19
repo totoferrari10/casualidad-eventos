@@ -669,9 +669,21 @@ background-color:  rgb(25, 108, 114);;
 
 /* Estilo adaptado (Mobile) */
 @media (max-width: 768px) {
+
+    
+body {
+    background: linear-gradient(270deg, #aec8dd, #35193398, #250e2073, #35113363);
+    background-size: 600% 600%;
+    animation: gradientBG 20s ease infinite;
+    background-image: url(./../imgs/CARATULA-\(2\).png);
+    background-size: cover;  
+    background-repeat: no-repeat; 
+    background-position: center center; 
+}
+
     .ingreso {
         padding: 20px;
-        max-width: 80%; 
+        max-width: 90%; 
         margin: 50px auto; 
     }
 
