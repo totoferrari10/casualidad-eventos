@@ -285,9 +285,10 @@ background-color:  rgb(25, 108, 114);;
 .audio-container {
     display: inline-block;     /* Hace que el contenedor se ajuste al contenido */
     margin: 0 auto;            /* Centra el contenedor */
-    padding: 20px;             /* Espaciado interno */
+    padding: 50px;             /* Espaciado interno */
     border-radius: 10px;       /* Bordes redondeados */
-    background-color: #1f3c4b;    /* Fondo blanco */
+    /* background-color: #1f3c4b;     */
+    background-color: #c4203b3d;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
 }
 
