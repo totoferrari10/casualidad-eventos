@@ -60,7 +60,21 @@ body {
     margin: 20px 0;
 }
 
-.decoraciones i {
+.decoraciones .bxs-wine{
+    font-size: 40px;
+    color: rgb(214, 18, 18);
+    margin: 0 15px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.decoraciones .bx-music{
+    font-size: 40px;
+    color: rgb(224, 219, 222);
+    margin: 0 15px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.decoraciones .bx-heart {
     font-size: 40px;
     color: rgb(38, 204, 216);
     margin: 0 15px;
@@ -714,7 +728,7 @@ background-color:  rgb(25, 108, 114);;
         text-align: center; /* Centra el texto */
         padding: 20px;
         border-radius: 15px; /* Opcional: bordes redondeados */
-        background: rgb(44, 32, 44); 
+        background: rgb(97, 32, 64); 
         box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Opcional: sombra para destacar */
 
     }
