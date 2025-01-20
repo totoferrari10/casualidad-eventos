@@ -684,9 +684,14 @@ background-color:  rgb(25, 108, 114);;
 
 
     .ingreso {
+        display: flex;
+        flex-direction: column; /* Organiza elementos en columna */
+        justify-content: center; /* Centra en el eje Y */
+        align-items: center; /* Centra en el eje X */
         padding: 20px;
-        max-width: 90%; 
-        margin: 50px auto; 
+        max-width: 90%;
+        margin: 50px auto;
+        height: 100vh; /* Hace que ocupe toda la altura visible */
     }
 
     /* Estilo del texto principal */
