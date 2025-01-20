@@ -53,7 +53,8 @@ body {
 }
 
 .ingreso p span{
-    color: rgb(38, 204, 216);
+    text-shadow: 2px 2px 5px rgba(10, 64, 73, 0.849);
+    color: rgb(170, 56, 159);
 }
 
 
@@ -64,21 +65,21 @@ body {
 
 .decoraciones .bxs-wine{
     font-size: 40px;
-    color: rgb(214, 18, 18);
+    color: rgba(214, 18, 18, 0.555);
     margin: 0 15px;
     transition: transform 0.3s ease, color 0.3s ease;
 }
 
 .decoraciones .bx-music{
     font-size: 40px;
-    color: rgb(224, 219, 222);
+    color: rgba(224, 219, 222, 0.527);
     margin: 0 15px;
     transition: transform 0.3s ease, color 0.3s ease;
 }
 
 .decoraciones .bx-heart {
     font-size: 40px;
-    color: rgb(38, 204, 216);
+    color: rgba(38, 204, 216, 0.555);
     margin: 0 15px;
     transition: transform 0.3s ease, color 0.3s ease;
 }
@@ -92,9 +93,9 @@ body {
 .ingreso a{
     display: inline-block;
     padding: 10px 20px;
-    background-color: #3b405ca2; 
-    color: rgb(152, 208, 212);
-    border: 1px solid rgb(38, 204, 216);
+    background-color:rgb(66, 18, 62); 
+    color: rgb(195, 185, 196);
+    border: 1px solid rgb(133, 55, 125);
     font-size: 20px;
     border-radius: 8px;
     text-decoration: none;
