@@ -21,7 +21,8 @@ body {
     background-image: url(./../imgs/CARATULA-\(2\).png);
     background-size: cover;  
     background-repeat: no-repeat; 
-    background-position: center center; 
+    background-position: center center;
+    height: 100vh;
 
 }
 
