@@ -682,6 +682,9 @@ background-color:  rgb(25, 108, 114);;
 /* Estilo adaptado (Mobile) */
 @media (max-width: 768px) {
 
+    .contain-principal{
+        height: 100vh;
+    }
 
     .ingreso {
         display: flex;
@@ -691,7 +694,7 @@ background-color:  rgb(25, 108, 114);;
         padding: 20px;
         max-width: 90%;
         margin: 50px auto;
-        height: 100vh; /* Hace que ocupe toda la altura visible */
+
     }
 
     /* Estilo del texto principal */
