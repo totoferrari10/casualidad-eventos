@@ -318,10 +318,10 @@ background-color:  rgb(25, 108, 114);;
     border-radius: 18px;
     width: 100%;
     color: rgb(231, 224, 231);
-    font-size: 20px;
+    font-size: 21px;
     text-decoration: none;
     transition: 0.3s;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Playfair Display';
     letter-spacing: 2px;
     font-weight: 300;
 }
@@ -419,11 +419,11 @@ background-color:  rgb(25, 108, 114);;
     border-radius: 18px;
     width: 100%;
     color: rgb(231, 224, 231);
-    font-size: 20px;
+    font-size: 21px;
     text-decoration: none;
     transition: 0.3s;
-    font-family: 'Poppins', sans-serif;
-    letter-spacing: 2px;
+    font-family: 'Playfair Display';
+    letter-spacing: 1px;
 }
 
 .overlay-text3 a:hover{
@@ -520,7 +520,11 @@ background-color:  rgb(25, 108, 114);;
     margin-bottom: 40px;
     background-color: #dd1b2b1f;
     padding: 10px;
+}
 
+.overlay-text .fa-camera-retro{
+    font-size: 60px;
+    padding-bottom: 30px;
 }
 
 .overlay-text .cart-2{
@@ -533,9 +537,24 @@ background-color:  rgb(25, 108, 114);;
     margin-top: 40px;
 }
 
+/* --------------------- SECTION 8 --------------------- */
+h3,
+h4{
+  margin: 0;
+  padding: 0; 
+}
+h3{
+    font-size: 30px;
+    white-space: nowrap;
+}
+h4 {
+  margin-top: -55px; 
+  padding-bottom: 50px;
+  font-size: 20px;
+  color:rgba(182, 45, 68, 0.712);
+}
 
-
-/* --------------------- SECTION 8 --------------------  */
+/* --------------------- SECTION 9 --------------------  */
 
 .ult-section{
     display: flex;
@@ -980,6 +999,22 @@ background-color:  rgb(25, 108, 114);;
             font-size: 18px; 
             padding: 8px;
         }
+        /* SECTION 8 */
+        h3 {
+            font-size: 24px; /* Tamaño reducido para pantallas pequeñas */
+        }
+        h4 {
+            margin-top: -55px; 
+            padding-bottom: 30px;
+            font-size: 20px;
+            color: rgba(182, 45, 68, 0.712);
+
+        
+            /* Limitar a 2 líneas */
+            display: -webkit-box; /* Configura el contenedor flexible */
+            
+        }
+        
     }
 
 
