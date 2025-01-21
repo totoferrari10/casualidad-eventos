@@ -167,202 +167,109 @@ background-color:  rgb(25, 108, 114);;
 }
 
 /* SECTION 2 */
-.invitacion{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-image: url();
-    
-}
 
-.invitacion h2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-size: 50px;
-    color: aliceblue;
-    width: 50%;
-}
 
-.img-invitacion{
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
+
+
+
 
 /* section 3, y en algunas partes section 4, seccion 5*/
-.party, .ubicacion{
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.img-party, .img-ubi{
-    position: relative; 
-    width: 150px; 
-    overflow: hidden; 
-}
 
 
-.img-party img, .img-ubi img{
-    width: 100%; 
-}
 
 
-.img-party img.second, .img-ubi img{
-    width: 100%;
-    border-radius: 50%;
-    box-shadow: 0 2px 3px rgba(255, 105, 248, 0.7);
-}
 
 
-.party p{
-    font-size: 70px;
-    font-family:  'Dancing Script', cursive;
-    color: aliceblue;
-}
-
-.subrayado {
-    text-align: center; 
-    position: relative; 
-    margin: 20px 0;
-    padding: 40px; 
-}
-
-.subrayado img {
-    width: 100%;
-    position: absolute; 
-    top: 74%; 
-    left: 50%; 
-    transform: translate(-50%, -50%); 
-
-}
-
-.cont-fecha p{
-    font-size: 30px;
-    padding: 15px;
-    font-family: sans-serif;
-    font-weight: 500;
-    color:rgb(165, 129, 165);
-    text-shadow: 
-    0 0 2px rgba(165, 129, 165, 0.5), 
-    0 0 4px rgba(255, 192, 203, 0.5); 
-}
 
 
-.cont-fecha a, .cont-ubi a{
-    display: block;
-    padding: 10px;
-    background-color: #424869; 
-    border: 1px solid violet;
-    border-radius: 18px;
-    width: 100%;
-    color: violet;
-    font-size: 24px;
-    text-decoration: none;
-    transition: 0.3s;
-}
 
-.cont-fecha a:hover, .cont-ubi a:hover{
-    color: aliceblue;
-    background-color: violet;
-}
+
+
+
 
 /* --------------------------------------------------------------- */
 /* SECCION 3- AUDIO */
 
-/* Estilos para la sección que contiene el audio */
 .section-3 {
     padding: 20px;        
     text-align: center;        
     border-radius: 10px;      
 }
 
-/* Estilos para el contenedor del audio */
+
 .audio-container {
-    display: inline-block;     /* Hace que el contenedor se ajuste al contenido */
-    margin: 0 auto;            /* Centra el contenedor */
-    padding: 50px;             /* Espaciado interno */
-    border-radius: 10px;       /* Bordes redondeados */
+    display: inline-block;   
+    margin: 0 auto;           
+    padding: 50px;            
+    border-radius: 10px;       
     /* background-color: #1f3c4b;     */
     background-color: #c4203b3d;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
-/* Estilos para el iframe */
 .audio-container iframe {
-    border-radius: 5px;        /* Bordes redondeados */
-    width: 100%;                /* Ancho del 100% dentro del contenedor */
-    height: 80px;               /* Altura personalizada */
-    max-width: 300px;           /* Ancho máximo */
+    border-radius: 5px;     
+    width: 100%;                
+    height: 80px;               
+    max-width: 300px;        
 }
-
-/* Oculta los controles del audio */
-
-
-
+/* ---------------SECTION 4------------------------------ */
 .content-container {
     display: flex;
     justify-content: center; 
     align-items: center; 
     height: 100vh; 
 
-
 }
 .image-box {
-    position: relative; /* Necesario para posicionar el texto encima */
-    width: 400px; /* Ancho del cuadro (ajústalo a tu preferencia) */
-    height: 400px; /* Alto del cuadro */
-    overflow: hidden; /* Evita que el texto o la imagen salgan del cuadro */
-    border: none; /* Opcional: borde alrededor del cuadro */
-    border-radius: 2px; /* Opcional: esquinas redondeadas */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Opcional: sombra para el cuadro */
+    position: relative; 
+    width: 400px; 
+    height: 400px; 
+    overflow: hidden; 
+    border: none; 
+    border-radius: 2px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
 }
 
 .image-box img {
-    width: 100%; /* Ajusta la imagen al ancho del cuadro */
-    height: 100%; /* Ajusta la imagen al alto del cuadro */
-    object-fit: cover; /* Asegura que la imagen mantenga proporciones */
-  }
-  
-  .overlay-text {
-    position: absolute; /* Posiciona el texto encima de la imagen */
-    top: 50%; /* Centra el texto verticalmente */
-    left: 50%; /* Centra el texto horizontalmente */
-    transform: translate(-50%, -50%); /* Ajuste perfecto para el centro */
-    color: white; /* Color del texto */
-    font-size: 1.4rem; /* Tamaño del texto (ajústalo según tu preferencia) */
-    font-weight: bold; /* Texto más visible */
-    text-shadow: 2px 2px 4px rgba(136, 8, 119, 0.562); /* Sombra para mejor legibilidad */
-    text-align: center; /* Centrado del texto si es multilinea */
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+}
+
+.overlay-text {
+    position: absolute; 
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    color: white; 
+    font-size: 1.4rem;
+    font-weight: bold; 
+    text-shadow: 2px 2px 4px rgba(136, 8, 119, 0.562); 
+    text-align: center; 
     color: rgb(182, 45, 68);
     width: 80%;
     letter-spacing: 1px;
-  }
+}
 
 
-  .overlay-text-2 {
-    position: absolute; /* Posiciona el texto encima de la imagen */
-    top: 50%; /* Centra el texto verticalmente */
-    left: 50%; /* Centra el texto horizontalmente */
-    transform: translate(-50%, -50%); /* Ajuste perfecto para el centro */
-    color: white; /* Color del texto */
-    font-size: 1.4rem; /* Tamaño del texto (ajústalo según tu preferencia) */
-    font-weight: bold; /* Texto más visible */
-    text-shadow: 2px 2px 4px rgba(136, 8, 119, 0.562); /* Sombra para mejor legibilidad */
-    text-align: center; /* Centrado del texto si es multilinea */
+.overlay-text-2 {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: white; 
+    font-size: 1.4rem; 
+    font-weight: bold; 
+    text-shadow: 2px 2px 4px rgba(136, 8, 119, 0.562); 
+    text-align: center;
     color: rgb(182, 45, 68);
     width: 80%;
     letter-spacing: 1px;
     background-color: #f1b8b893;
     height: 220px;
     border-radius: 10px ;
-  }
+}
 
 .overlay-text-2 .month{
     letter-spacing: 3px;
@@ -381,7 +288,7 @@ background-color:  rgb(25, 108, 114);;
 .overlay-text-2 .hour{
     font-size: 25px;
 }
-/* SECCION 4- UBICACION */
+/* SECCION 5- UBICACION */
 .overlay-text p{
     font-family: 'Times New Roman', serif;
     color: rgb(230, 29, 29);
@@ -421,19 +328,20 @@ background-color:  rgb(25, 108, 114);;
     background-color: rgb(107, 35, 53);
 }
 
- .img-ubi{
-    position: relative; /* Contenedor relativo */
-    width: 100%; /* Ajusta el tamaño del contenedor según lo necesites */
-    height: 100px; /* Asegúrate de darle altura */
+.img-ubi{
+    position: relative; 
+    width: 100%; 
+    height: 100px; 
 
 
 }
- .img-ubi img{
-    position: absolute; /* Posiciona la imagen en relación al contenedor */
-    top: 50%; /* Mueve al centro vertical */
-    left: 50%; /* Mueve al centro horizontal */
-    transform: translate(-50%, -50%); /* Ajusta el punto de anclaje al centro */
-    max-width: 100px; /* Ajusta tamaño según necesidad */
+
+.img-ubi img{
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    max-width: 100px; 
 
 }
 /* ---------------------------------------------------------------------------------- */
@@ -441,65 +349,91 @@ background-color:  rgb(25, 108, 114);;
 
 
 
-/* Section 4 */
-.cont-ubi p{
-    font-family: 'Times New Roman', serif;
-    color: rgb(85, 85, 85);
+
+
+/* SECTION 5 */
+
+.content-container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 20px;
+}
+
+.overlay-text3 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background-color: #c4455a2f; */
+    padding: 20px;
+    border-radius: 4px;
     text-align: center;
+    color: white;
+    width: 100%; /* Asegura que el contenedor tenga el ancho completo */
+    height: auto; /* Deja que el contenedor se ajuste automáticamente */
+    display: flex;
+    flex-direction: column; /* Alineación en columna */
+    justify-content: space-between; /* Asegura el espacio entre los elementos */
+    max-width: 90%; /* Limitamos el ancho del contenedor */
+    box-sizing: border-box; /* Incluye el padding en el cálculo del tamaño */
+
+}
+
+.icon-text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px; /* Espacio entre el icono y el texto */
+
+
+}
+
+.icon-text-container img{
+    font-size: 0px;
+    color: #e2dfdf93;
+    background-color: #b60d1510;
     padding: 10px;
+    border-radius: 50%;
+    height: 120px;
 }
 
-.cont-ubi p:first-of-type {
-    font-size: 36px;
-    font-weight: bold;
-    color: rgb(165, 129, 165); 
-    border-bottom: 2px solid rgb(200, 150, 200); 
+
+
+.text-content h3 {
+    margin: 0;
+    font-size: 27px;
+    color: rgb(182, 45, 68);
+    letter-spacing: 6px;
+    white-space: nowrap;
 }
 
-.cont-ubi   p:last-of-type {
-    font-size: 28px;
-    color: rgb(100, 100, 100);
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); 
-    padding: 15px;
+.text-content p {
+    margin: 10px;
+    font-size: 23px;
+    color: rgba(182, 45, 68, 0.712);
+    letter-spacing: 4px;
 }
 
-/* Seccion 5 */
-
-.cont-asistencia p{
-    font-weight: 500;
-    text-shadow: 
-    0 0 2px rgba(165, 129, 165, 0.5), 
-    0 0 4px rgba(255, 192, 203, 0.5); 
-    font-size: 36px;
-    color: rgb(165, 129, 165); 
-    border-bottom: 2px solid rgb(200, 150, 200); 
-    
-
-}
-
-.cont-asistencia a{
+.overlay-text3 a{
+    margin-top: 50px; 
     display: block;
-    width: 50%;
-    margin: 0 auto; /* Centra el elemento */
-    text-align: center; /* Centra el texto dentro del botón */
     padding: 10px;
-    background-color: #424869; 
+    background-color: #c4455a; 
     border: 1px solid violet;
     border-radius: 18px;
-    color: violet;
+    width: 100%;
+    color: rgb(231, 224, 231);
     font-size: 24px;
     text-decoration: none;
     transition: 0.3s;
-    margin-top: 20px;
 
 }
 
-.cont-asistencia a:hover{
-    color: aliceblue;
-    background-color: violet;
-}
+/* SECTION 6 */
 
-/* Seccion 6 */
 .fotos{
     height: 100vh;
     display: flex;
@@ -507,8 +441,6 @@ background-color:  rgb(25, 108, 114);;
     justify-content: center;
     align-items: center;
     text-align: center;
-
-
 }
 
 .photos{
@@ -564,7 +496,7 @@ background-color:  rgb(25, 108, 114);;
     transform: scale(1.1);
 }
 
-/* Section  7 */
+/*--------------- SECTION 7 ------------------- */
 
 .title{
     font-size: 60px;
@@ -660,9 +592,12 @@ background-color:  rgb(25, 108, 114);;
 }
 
 .vestimenta i{
-    font-size: 50px;
-    color: #241216;
-    padding-bottom: 50px;
+    font-size: 50px; 
+    color: rgb(192, 28, 83); 
+    background-color: #c7cfc7; 
+    padding: 15px;
+    border-radius: 50%; 
+    border: 1px solid #333;
 }
 
 .vestimenta p{
@@ -671,7 +606,7 @@ background-color:  rgb(25, 108, 114);;
     color: aliceblue;
 }
 
-/* ULTIMA SECTION-8  */
+/* --------------------- SECTION 8 --------------------  */
 
 .ult-section{
     display: flex;
@@ -727,12 +662,10 @@ background-color:  rgb(25, 108, 114);;
 
 
 
-
 /* Estilo adaptado (Mobile) */
 @media (max-width: 768px) {
 
     html body {
-
         margin: 0;
         padding: 0;
         height: 100%;
@@ -741,14 +674,14 @@ background-color:  rgb(25, 108, 114);;
 
     .ingreso {
         width: 80%;
-        text-align: center; /* Centra el texto */
+        text-align: center;
         padding: 20px;
-        border-radius: 15px; /* Opcional: bordes redondeados */
-        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Opcional: sombra para destacar */
+        border-radius: 15px; 
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
 
     }
 
-    /* Estilo del texto principal */
+
     .ingreso h3 {
         font-size: 40px; 
     }
@@ -770,7 +703,7 @@ background-color:  rgb(25, 108, 114);;
         margin: 0 10px; 
     }
 
-    /* Estilo del botón */
+
     .ingreso a {
         font-size: 18px; 
         padding: 8px 16px; 
@@ -784,7 +717,7 @@ background-color:  rgb(25, 108, 114);;
 }
 
 
-/* MOBILE CARDS- INVITACIONES - PARTY- UBICACION- FOTOS- MODOS*/
+/* MOBILE DE LA SECTION 1 a la 8*/
 @media (max-width: 768px) { 
     .cards {
         padding: 50px;
@@ -821,8 +754,8 @@ background-color:  rgb(25, 108, 114);;
 
     /* SECTION-PARTY - MOBILE*/
     .party {
-        height: auto; /* Ajusta la altura según el contenido */
-        padding: 20px 10px; /* Reduce el padding */
+        height: auto; 
+        padding: 20px 10px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -831,17 +764,17 @@ background-color:  rgb(25, 108, 114);;
     }
 
     .img-party {
-        width: 160px; /* Reduce el tamaño de la imagen */
-        margin-bottom: 20px; /* Añade margen inferior para separación */
+        width: 160px; 
+        margin-bottom: 20px; 
     }
 
     .img-party img {
         width: 100%;
-        border-radius: 8px; /* Redondea las esquinas */
+        border-radius: 8px; 
     }
 
     .img-party img.second {
-        width: 80%; /* Ajusta el tamaño de la imagen */
+        width: 80%;
         border-radius: 50%;
         box-shadow: 0 2px 3px rgba(255, 105, 180, 0.7);
     }
@@ -983,6 +916,8 @@ background-color:  rgb(25, 108, 114);;
         padding-bottom: 50px; 
     }
 
+    /* -------------------SECTIONS ORIGINALES ---------------- */
+
             /* CARTAS ACTUALES  */
         .content-container {
             width: 90%;
@@ -1040,15 +975,15 @@ background-color:  rgb(25, 108, 114);;
             font-weight: bold;
             color: rgb(182, 45, 68);
             border-bottom: 1px solid rgb(170, 46, 73);
-          }
+        }
         
-          .overlay-text p:last-of-type {
+        .overlay-text p:last-of-type {
             font-size: 20px;
             color: rgb(148, 18, 39);
             text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
             padding: 10px; 
-          }
-          .overlay-text a {
+        }
+        .overlay-text a {
             display: block;
             padding: 8px; 
             background-color: #c4455a;
@@ -1060,29 +995,64 @@ background-color:  rgb(25, 108, 114);;
             text-decoration: none;
             transition: 0.3s;
             margin: 0 auto; 
-          }
+        }
         
-          .overlay-text a:hover {
+        .overlay-text a:hover {
             color: aliceblue;
             background-color: rgb(107, 35, 53);
-          }
+        }
         
-          .img-ubi {
+        .img-ubi {
             position: relative; 
             width: 100%;
             height: 80px; 
-          }
+        }
         
-          .img-ubi img {
+        .img-ubi img {
             position: absolute;
             top: 50%; 
             left: 50%; 
             transform: translate(-50%, -50%);
             max-width: 60px; 
             max-height: 60px; 
-          }
-      }
-      
+        }
+        /* SECTION 5 */
+        .content-container2 {
+            width: 90%;
+            height: 600px; 
+        }
+    
+        .overlay-text3 {
+            top: 60%; 
+            transform: translate(-50%, -50%);
+            padding: 15px; 
+            max-width: 90%; 
+        }
+    
+        .icon-text-container {
+            gap: 10px; 
+        }
+    
+        .icon-text-container i {
+            font-size: 40px; 
+            padding: 8px;
+        }
+    
+        .text-content h3 {
+            font-size: 24px; 
+        }
+    
+        .text-content p {
+            font-size: 20px; 
+        }
+    
+        .overlay-text3 a {
+            margin-top: 20px;
+            font-size: 18px; 
+            padding: 8px;
+        }
+    }
+
 
 
 
