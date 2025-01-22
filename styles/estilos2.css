@@ -501,12 +501,12 @@ background-color:  rgb(25, 108, 114);;
 .title{
     font-size: 60px;
     font-family: 'Dancing Script', cursive;
-    padding-top: 100px;
+    padding-top: 90px;
     display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
-    color: rgb(155, 48, 71);
+    color:rgba(182, 45, 68, 0.712);
     text-shadow: 
     0 0 2px rgba(165, 129, 165, 0.5), 
     0 0 4px rgba(255, 192, 203, 0.5);
