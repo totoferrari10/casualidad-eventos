@@ -40,7 +40,7 @@ body {
     animation: fadeIn 1.5s ease-out;
 }
 
-.ingreso h3{
+.ingreso h2{
     color: aliceblue;
     font-size: 40px;
     margin-bottom: 10px;
@@ -540,18 +540,17 @@ background-color:  rgb(25, 108, 114);;
 /* --------------------- SECTION 8 --------------------- */
 h3,
 h4{
-  margin: 0;
-  padding: 0; 
+margin: 0;
+padding: 0; 
 }
 h3{
     font-size: 30px;
-    white-space: nowrap;
 }
 h4 {
-  margin-top: -55px; 
-  padding-bottom: 50px;
-  font-size: 20px;
-  color:rgba(182, 45, 68, 0.712);
+margin-top: -55px; 
+padding-bottom: 50px;
+font-size: 20px;
+color:rgba(182, 45, 68, 0.712);
 }
 
 /* --------------------- SECTION 9 --------------------  */
@@ -630,7 +629,7 @@ h4 {
     }
 
 
-    .ingreso h3 {
+    .ingreso h2 {
         font-size: 40px; 
     }
 
