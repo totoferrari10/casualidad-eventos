@@ -303,7 +303,7 @@ background-color:  rgb(25, 108, 114);;
     font-size: 36px;
     font-weight: bold;
     color: rgb(182, 45, 68);
-    border-bottom: 1px solid rgb(88, 29, 73); 
+    border-bottom: 1px solid rgba(194, 11, 81, 0.39); 
 }
 
 .overlay-text   p:last-of-type {
