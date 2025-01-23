@@ -166,29 +166,32 @@ background-color:  rgb(25, 108, 114);;
     transform: scale(1.1); 
 }
 
-/* SECTION 2 */
+/* --------------------------------------------------------------- */
+
+/* SECTION  2*/
+.cuenta_atras{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+    color: #c4455a;
+}
 
 
+.grande{
+    font-size: 50px;
+}
 
-
-
-
-/* section 3, y en algunas partes section 4, seccion 5*/
-
-
-
-
-
-
-
-
-
-
-
-
+.chico{
+    font-size: 20px;
+    color: #c4455ad2;
+    font-family: 'Playfair Display';
+    font-weight: 600;
+}
 
 /* --------------------------------------------------------------- */
-/* SECCION 3- AUDIO */
+/* SECCION 4 - AUDIO */
 
 .section-3 {
     padding: 20px;        
@@ -496,7 +499,7 @@ background-color:  rgb(25, 108, 114);;
     transform: scale(1.1);
 }
 
-/*--------------- SECTION 7 ------------------- */
+/*--------------- SECTION 8 ------------------- */
 
 .title{
     font-size: 60px;
