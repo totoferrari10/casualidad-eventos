@@ -569,7 +569,7 @@ color:rgba(182, 45, 68, 0.712);
 .ult-section .p-1{
     font-family: 'Dancing Script', cursive; 
     font-size: 55px; 
-    color: aliceblue; 
+    color: rgb(180, 19, 86); 
     text-align: center; 
     margin-top: 20px; 
     text-shadow: 
@@ -586,7 +586,7 @@ color:rgba(182, 45, 68, 0.712);
     width: 50%;
 
     font-size: 28px; 
-    color: #FF69B4; 
+    color: #ff69b488; 
     text-align: center; 
     margin: 30px auto; 
     line-height: 1.6; 
