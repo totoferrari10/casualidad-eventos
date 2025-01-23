@@ -94,7 +94,7 @@ body {
 .ingreso a{
     display: inline-block;
     padding: 10px 20px;
-    background-color:rgb(66, 18, 62); 
+    background-color:rgba(143, 15, 68, 0.384); 
     color: rgb(195, 185, 196);
     border: 1px solid rgb(133, 55, 125);
     font-size: 20px;
@@ -102,11 +102,12 @@ body {
     text-decoration: none;
     transition: background-color 0.3s;
     width: 30%;
+    letter-spacing: 2px;
     
 }
 
 .ingreso a:hover{
-background-color:  rgb(25, 108, 114);;
+    background-color: rgb(107, 35, 53);
     color: aliceblue;
 }
 
@@ -488,15 +489,20 @@ background-color:  rgb(25, 108, 114);;
     transition: transform 0.3s ease;
     border-radius: 10px;
     overflow: hidden;
+
 }
 
 .contenido:hover {
-    transform: scale(1.05);
+    transform: scale(1);
+    opacity: 1.9; 
+    background-color: rgba(255, 105, 180, 0.2); /* Un color de fondo suave */
+    filter: blur(2px);
 
 }
 
 .contenido:hover img {
     transform: scale(1.1);
+    filter: grayscale(50%) brightness(1.2);
 }
 
 /*--------------- SECTION 8 ------------------- */
@@ -661,7 +667,7 @@ color:rgba(182, 45, 68, 0.712);
     }
 
     .ingreso a:hover{
-        background-color: rgb(9, 67, 82);
+        background-color: rgb(107, 35, 53);
         color: aliceblue;
     }
 }
@@ -794,6 +800,19 @@ color:rgba(182, 45, 68, 0.712);
     .contenido img {
         width: 100%; 
         height: auto;
+    }
+
+    .contenido:hover {
+        transform: scale(1);
+        opacity: 1.9; 
+        background-color: rgba(255, 105, 180, 0.2); /* Un color de fondo suave */
+        filter: blur(2px);
+    
+    }
+    
+    .contenido:hover img {
+        transform: scale(1.1);
+        filter: grayscale(50%) brightness(1.2);
     }
     /* SECTION MODOS MOBILE */
     .title {
