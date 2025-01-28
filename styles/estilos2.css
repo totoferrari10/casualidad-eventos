@@ -201,7 +201,7 @@ body {
     font-weight: bold; 
     text-shadow: 2px 2px 4px rgba(136, 8, 119, 0.562); 
     text-align: center; 
-    color: rgba(110, 42, 80, 0.74);
+    color: rgb(182, 45, 68);
     width: 80%;
     letter-spacing: 1px;
 }
@@ -842,12 +842,12 @@ color:rgba(182, 45, 68, 0.712);
         }
     
         .overlay-text-2 .month {
-        font-size: 35px; 
+        font-size: 32px; 
         letter-spacing: 2px;
         }
     
         .overlay-text-2 .day {
-        font-size: 25px;
+        font-size: 23px;
         }
     
         .overlay-text-2 .number {
@@ -913,7 +913,7 @@ color:rgba(182, 45, 68, 0.712);
         /* SECTION 5 */
         .content-container2 {
             width: 90%;
-            height: 600px; 
+            height: 700px; 
         }
     
         .overlay-text3 {
