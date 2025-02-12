@@ -604,12 +604,7 @@ color:rgba(182, 45, 68, 0.712);
     padding-bottom: 100px;
 }
 
-@media (prefers-color-scheme: dark) {
-    body {
-        background-color: #ffffff !important;
-        color: #333333 !important;
-    }
-}
+
 
 
 /* ESTILOS (Mobile) */
@@ -968,6 +963,12 @@ color:rgba(182, 45, 68, 0.712);
         
     }
 
+    @media (prefers-color-scheme: dark) {
+        html, body {
+            background-color: #ffffff !important; /* Siempre blanco */
+            color: #333333 !important; /* Siempre negro */
+        }
+    }
 
 
 
