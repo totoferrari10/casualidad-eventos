@@ -819,20 +819,20 @@ color:rgba(182, 45, 68, 0.712);
 
     .instagram-link {
         display: flex;
-        flex-direction: column;  /* Pone el icono arriba y el texto abajo */
-        align-items: center;  /* Centra el contenido */
-        text-decoration: none;  /* Quita el subrayado */
-        color: inherit;  /* Mantiene el color del texto */
+        flex-direction: column; 
+        align-items: center;  
+        text-decoration: none;  
+        color: inherit;  
     }
     
     .instagram-link i {
-        font-size: 100px;  /* Ajusta el tamaño del icono */
+        font-size: 100px; 
     }
     
     .instagram-link span {
-        font-size: 28px;  /* Ajusta el tamaño del texto */
-        color: #c4455a52;
-        margin-top: 1px;  /* Espacio entre el icono y el texto */
+        font-size: 28px;  
+        color: #ff69b488; 
+        margin-top: 1px;  
     }
     
 
