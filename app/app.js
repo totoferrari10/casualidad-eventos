@@ -36,3 +36,7 @@ setInterval(() =>{
 }, 1000)
 
 
+if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    document.documentElement.style.backgroundColor = "#ffffff";
+    document.documentElement.style.color = "#333333";
+}

@@ -1,3 +1,4 @@
+
 *{
     padding: 0;
     margin: 0;
@@ -965,7 +966,7 @@ color:rgba(182, 45, 68, 0.712);
     }
 
     @media (prefers-color-scheme: dark) {
-        html, body {
+        body {
             background-color: #ffffff !important; /* Siempre blanco */
             color: #333333 !important; /* Siempre negro */
         }
