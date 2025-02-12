@@ -813,13 +813,28 @@ color:rgba(182, 45, 68, 0.712);
     }
 
     .ult-section i {
-        font-size: 50px; 
+        font-size: 100px; 
         padding-bottom: 50px;
-        display: flex;
-        flex-direction: column;
-        text-decoration: none;
-
     }
+
+    .instagram-link {
+        display: flex;
+        flex-direction: column;  /* Pone el icono arriba y el texto abajo */
+        align-items: center;  /* Centra el contenido */
+        text-decoration: none;  /* Quita el subrayado */
+        color: inherit;  /* Mantiene el color del texto */
+    }
+    
+    .instagram-link i {
+        font-size: 100px;  /* Ajusta el tamaño del icono */
+    }
+    
+    .instagram-link span {
+        font-size: 28px;  /* Ajusta el tamaño del texto */
+        color: #c4455a52;
+        margin-top: 1px;  /* Espacio entre el icono y el texto */
+    }
+    
 
     /* -------------------SECTIONS ORIGINALES ---------------- */
 
