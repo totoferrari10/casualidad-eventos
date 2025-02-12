@@ -813,8 +813,12 @@ color:rgba(182, 45, 68, 0.712);
     }
 
     .ult-section i {
-        font-size: 100px; 
-        padding-bottom: 50px; 
+        font-size: 50px; 
+        padding-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+
     }
 
     /* -------------------SECTIONS ORIGINALES ---------------- */
