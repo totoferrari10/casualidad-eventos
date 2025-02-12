@@ -15,7 +15,9 @@ body {
     background-image: url(./../imgs/CARATULA-\(2\).png);
     background-size: cover;  
     background-repeat: no-repeat; 
-    background-position: center center; 
+    background-position: center center;
+    background-color: #ffffff !important; /* Fondo blanco */
+    color: #333333 !important; /* Texto oscuro */ 
 
 }
 
@@ -602,7 +604,12 @@ color:rgba(182, 45, 68, 0.712);
     padding-bottom: 100px;
 }
 
-
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #ffffff !important;
+        color: #333333 !important;
+    }
+}
 
 
 /* ESTILOS (Mobile) */
