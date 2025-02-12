@@ -18,8 +18,9 @@ body {
     background-position: center center;
     background-color: #ffffff !important; /* Fondo blanco */
     color: #333333 !important; /* Texto oscuro */ 
-
 }
+
+
 
 .contain-principal{
     background: linear-gradient(270deg, #aec8dd, #35193398, #250e2073, #35113363);
