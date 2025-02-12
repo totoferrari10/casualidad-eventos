@@ -21,7 +21,9 @@ body {
     color: #333333 !important; /* Texto oscuro */ 
 }
 
-
+a, p, h1, h2, h3, h4, h5, h6 {
+    color: #333333 !important;
+}
 
 .contain-principal{
     background: linear-gradient(270deg, #aec8dd, #35193398, #250e2073, #35113363);
