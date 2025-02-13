@@ -6,7 +6,7 @@
 }
 
 :root {
-    color-scheme: light;
+    color-scheme: light only;
 }
 
 body {
@@ -606,7 +606,11 @@ color:rgba(182, 45, 68, 0.712);
     padding-bottom: 100px;
 }
 
-
+@media (prefers-color-scheme: dark){
+    body a{
+        font-family:'Playfair Display', sans-serif !important ;
+    }
+}
 
 
 /* ESTILOS (Mobile) */
