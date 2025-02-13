@@ -607,9 +607,20 @@ color:rgba(182, 45, 68, 0.712);
 }
 
 @media (prefers-color-scheme: dark){
-    body a{
-        font-family:'Playfair Display', sans-serif !important ;
+    body .content-container a{
+        font-family:'Playfair Display' !important ;
         font-weight: 500;
+        letter-spacing: 2px;
+
+    }
+}
+
+@media (prefers-color-scheme: dark){
+    body .content-container2 a{
+        font-family:'Playfair Display' !important ;
+        font-weight: 500;
+        letter-spacing: 2px;
+
     }
 }
 
