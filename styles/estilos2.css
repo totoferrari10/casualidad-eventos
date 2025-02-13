@@ -609,6 +609,7 @@ color:rgba(182, 45, 68, 0.712);
 @media (prefers-color-scheme: dark){
     body a{
         font-family:'Playfair Display', sans-serif !important ;
+        font-weight: 500;
     }
 }
 
@@ -733,7 +734,7 @@ color:rgba(182, 45, 68, 0.712);
 
     .contenido {
         width: 100%; 
-        max-width: 90%; 
+        max-width: 95%; 
     }
 
     .contenido img {
