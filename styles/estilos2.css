@@ -213,6 +213,8 @@ body {
     letter-spacing: 1px;
 }
 
+
+
 /* --------------------------------------------------------------- */
 
 /* SECTION  3 - RELOJ*/
@@ -337,8 +339,10 @@ body {
     transition: 0.3s;
     font-family: 'Playfair Display';
     letter-spacing: 2px;
-    font-weight: 300;
+
 }
+
+
 
 .overlay-text a:hover{
     color: aliceblue;
