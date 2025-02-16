@@ -303,8 +303,8 @@ body {
     transition: 0.3s;
     font-family: 'Playfair Display';
     letter-spacing: 2px;
-    font-weight: 700;
 }
+
 
 .overlay-text a:hover {
     background-color: rgba(182, 45, 68, 0.712);
@@ -397,7 +397,7 @@ body {
     text-decoration: none;
     transition: 0.3s;
     font-family: 'Playfair Display';
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     text-align: center;
 }
 
@@ -874,10 +874,11 @@ h4 {
         border-radius: 12px;
         width: 100%;
         color: rgb(230, 227, 230);
-        font-size: 18px;
+        font-size: 16px;
         text-decoration: none;
         transition: 0.3s;
         margin: 0 auto;
+        font-weight: 300;
     }
 
     .overlay-text a:hover {
@@ -932,8 +933,9 @@ h4 {
 
     .overlay-text3 a {
         margin-top: 20px;
-        font-size: 18px;
+        font-size: 16px;
         padding: 8px;
+        font-weight: 300;
     }
 
     /* SECTION 8 */
